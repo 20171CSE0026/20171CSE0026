@@ -1,0 +1,21 @@
+body{
+    background-image:url('smile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 30%;
+    padding-top: 15%;
+   
+}
+.container2{
+	width: 50%;
+	float: left;
+	margin: 20px;
+	box-shadow: 3px 3px 6px 3px #aaa;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    font-size:25px;
+    font-family: sans-serif;
+
+}

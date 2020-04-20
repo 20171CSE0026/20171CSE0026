@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form Validation</title>
+	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="form1.js">
+
+	</script>
+</head>
+
+<body>
+
+	<form onsubmit="return validate();" action="message.html">
+		<div class="row">
+			<div class="column">
+				<br><input type="text" id="name" class="box1" placeholder="Name" maxlength="20" size="30" onblur="validate('txt_EmpId','1')"/><br><br>
+
+
+				<p style="background-color: whitesmoke;font-family: sans-serif;" class="box1">Gender:
+
+					<input type="radio" id="male" name="gender" value="male">Male
+					<input type="radio" id="female" name="gender" value="female">Female
+					<input type="radio" id="other" name="gender" value="other">Other</p>
+				<br><br>
+				<textarea id="add" rows="1" cols="4" class="box1" placeholder="Address"></textarea><br><br>
+					
+				<input type="email" id="email" class="box1" placeholder="Enter valid email ID" size="30" /><br>
+				<br>
+				<input type="text" id="myText" placeholder="UID" class="box1" value="" readonly size="30"><br><br>
+				<br><input type="password" id="pwd1" class="box1" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" maxlength="25"
+					size="30" /><br><br>
+					<input type="checkbox" onclick="myFunction()">Show Password
+
+
+
+
+			</div>
+			<div class="column">
+				<br><input type="text" id="age" class="box1" placeholder="Age" size="30" /><br>
+				<br><input type="text" id="year" class="box1" placeholder="Year of Birth" minlength="4"
+					maxlength="4" /><br><br>
+				<input type="text" id="num" class="box1" placeholder="Phone Number" maxlength="10" /><br><br>
+
+
+				
+				<button onclick="generator()" type="button" class="box2">Generate UID&nbsp;<i
+						class="fa fa-mouse-pointer"></i></button><br><br>
+						<select id="state" name="state">
+							<option value="karnataka">Karnataka</option>
+							<option value="tamil nadu">Tamil Nadu</option>
+							<option value="kerala">Kerala</option>
+							<option value="ap">Andhra Pradesh</option>
+						</select><br><br><br>
+
+
+
+
+				<input type="password" id="pwd2" class="box1" placeholder="Confirm Password" minlength="8"
+					maxlength="25" /><br><br>
+			</div>
+			<button type="submit" class="fill2">Submit</button>
+		</div>
+	</form>
+
+</body>
+
+</html>

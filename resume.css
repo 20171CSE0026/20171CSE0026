@@ -1,0 +1,161 @@
+html,body{
+	top:0;
+	margin: 0;
+	padding: 0;
+
+}
+.b{
+	background-image: url("img\11-Desktop-FlowerCone-Row.jpg");
+	background-color: rgb(255, 255, 51);
+	;
+}
+.body1 {
+	
+	 margin-left:150px;
+	 
+	   }
+.site{
+	margin: 5% 5%;
+}
+
+.image-container{
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+.bottom-left {
+  position: absolute;
+  font-size: 2em;
+  font-family: Cambria;
+  background-color: black;
+  padding: 5px;
+  opacity: 0.8;
+  top: 8px;
+  left: 140px;
+}
+
+.container{
+	width: 30%;
+	box-shadow: 3px 3px 6px 3px #aaa;
+	margin: 20px;
+	float: left;
+	background-color: white;
+}
+.container1{
+	padding: 10px;
+	background-color: white;
+}
+.info{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.container2{
+	width: 50%;
+	float: left;
+	margin: 20px;
+	box-shadow: 3px 3px 6px 3px #aaa;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.hcontainer1{
+	color:white;
+	background-color: #b3f525;
+	
+	font-family: Gill Sans;
+	letter-spacing: 2px;
+    text-align: center;
+    border-radius: 50px;
+}
+.cv{
+	font-family: Cambria;
+	line-height: 30px;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
+h3{
+	font-family:Cambria;
+}
+table {
+	font-family: Cambria;
+	border-collapse: collapse;
+	width: 85%;
+	font-size:1em;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
+.footer {
+	float:left;
+   width: 100%;
+   background-color: black;
+   text-align: center;
+   padding: 20px 0px;
+   margin-top: 30px;
+}
+.fill2{
+	border: 2px solid green;
+	background-color: green;
+	color:white;
+	font-size: medium;
+	border-radius: 5px;
+	box-align: center;
+	padding:14px 25px;
+	display:inline-block;
+	text-decoration: none;
+}
+.formgroup{
+	font-family: Cambria;
+	font-size:1.2em;
+	margin:2px 2px 2px 2px;
+	border-style: solid;
+	padding: 20px;
+	width: 300px;
+}
+.ul1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+  }
+  
+  .a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .a:hover {
+	background-color: #555;
+	color: white;
+  }
+  .imp{
+	  font-size: 0.5em;
+	  text-align: right;
+	}
+@media screen and (max-width: 500px){
+	.site{
+		margin: 0;
+	}
+	.container{
+		margin: 10px 10px;
+		width: 100%;
+		float: left;
+	}
+	.container2{
+		margin: 20px 0;
+		width: 100%;
+		float: right;
+	}
+	
+}

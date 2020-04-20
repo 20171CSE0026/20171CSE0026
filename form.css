@@ -1,0 +1,80 @@
+.fill2{
+	border: 2px solid green;
+	background-color: green;
+	color:white;
+	font-size: medium;
+	border-radius: 5px;
+	box-align: center;
+	padding:14px 25px;
+	display:inline-block;
+	text-decoration: none;
+}
+.fill1{
+    border: 2px solid grey;
+	background-color: grey;
+	color:white;
+	font-size: medium;
+	border-radius: 4px;
+	box-align: center;
+	padding:14px 25px;
+	display:inline-block;
+	text-decoration: none; 
+}
+.box1, select {
+  
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 65%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .box2 {
+  
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: lightsteelblue;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 65%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  
+  div {
+      align-content: center;
+    border-radius: 5px;
+    
+    padding: 8%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }  
+ 
+  * {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    background-image:url('footer-form-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
